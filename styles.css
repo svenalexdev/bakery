@@ -22,14 +22,16 @@ body {
   }
 }
 .reason{
-    align-items: center;
-
+    margin: 2rem;
     h1{
         text-align: center;
+        margin: 2rem 0;
     }
     .container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        gap:2rem;
+       text-align: center;
     }
     figure img{
         width:50%;
