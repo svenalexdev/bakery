@@ -5,9 +5,20 @@
 }
 /* variable here */
 :root {
+    font-family: "Montserrat", sans-serif;
 }
 /* body start */
 body {
+}
+header {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 2rem;
+}
+
+header nav {
+    list-style: none;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
