@@ -61,6 +61,10 @@ body {
 .offer-f{
     background-color: var(--light-background);
     padding: 2rem;
+    text-align: center;
+    p{
+        margin-top: 1rem;
+    }
 }
 .offer {
   display: flex;
@@ -71,20 +75,23 @@ body {
   align-items: center;
   position: relative;
   
-
   img {
     width: 10rem;
     height: 12rem;
     border: 2px solid rgb(142, 107, 118);
   }
-  h3{
+  h2{
+    top:1rem;
+    align-items: center;
+  }
+  /* h3{
     position: absolute;
     bottom:1rem;
     font-style: italic;
     color:#4b3540;
     background-color: rgb(177, 162, 162);
   }
-}
+} */
 h1{
     text-align: center;
     font-size: 2rem;
