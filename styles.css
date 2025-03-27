@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variable here */
+:root{
+
+}
+/* body start */
+body{
+
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    /* CSS rules for extra small screens */
+  }
+
+  h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+    
+
+  }
+
+  .best-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    margin-inline: 1rem;
+    max-width: 1024px;
+  
+  }
+
+  .product {
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    flex-basis: 175px;
+    justify-content: center;
+  
+  }
+  
+  figcaption {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+    color: #f248e1;
+  }
+
+
+  
