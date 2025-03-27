@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 0.875rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1eff1;
+    color: #333;
+    line-height: 1.6;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;    
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle, rgba(242,11,111,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
