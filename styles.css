@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
 * {
     margin: 0;
     padding: 0;
@@ -5,39 +6,56 @@
 }
 /* variable here */
 :root {
-    font-family: "Montserrat", sans-serif;
+    --main-color:#CE3C83;
+    --font-family:Source Sans Pro, Roboto, sans-serif;
+    --light-background:#f4ebf2;
 }
 /* body start */
 body {
-    display: block;
+  display: block;
+  font-family: var(--font-family);
 }
 .video {
-    text-align: center;
-    margin: 2rem;
+  text-align: center;
+  padding:2rem;
+  background-color: var(--light-background);
 
-    h1 {
-        margin: 2rem 0;
-    }
-    video {
-        border-radius: 1rem;
-    }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  video {
+    border-radius: 1rem;
+    border: 2px solid black;
+  }
 }
 .reason {
+  margin: 2rem 4rem;
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
     align-items: center;
 
     h1 {
         text-align: center;
-    }
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
     }
     figure img {
         width: 50%;
         border-radius: 50%;
         gap: 1rem;
         object-fit: cover;
-        grid-template-columns: (3, 1);
+        border: 2px solid black;
+    }
+    figcaption{
+        padding: 2rem;
     }
 }
 
@@ -94,4 +112,5 @@ li {
 /* Large devices (laptops/desktops, 992px to 1200px) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
     /* CSS rules for large screens */
+}
 }
