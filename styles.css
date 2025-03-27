@@ -1,32 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* variable here */
 :root {
-    font-family: "Montserrat", sans-serif;
-    :root {
-    }
-    /* body start */
-    body {
-        display: block;
-    }
-    .video {
-        --main-color: #ce3c83;
-        --font-family: Source Sans Pro, Roboto, sans-serif;
-        --light-background: #f4ebf2;
-    }
-    /* body start */
-    body {
-        display: block;
-        font-family: var(--font-family);
-    }
-    .video {
-        text-align: center;
-        padding: 2rem;
-        background-color: var(--light-background);
+  --main-color: #ce3c83;
+  --font-family: Source Sans Pro, Roboto, sans-serif;
+  --light-background: #f4ebf2;
+}
+/* body start */
+body {
+  display: block;
+  font-family: var(--font-family);
+}
+.video {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--light-background);
 
         h1 {
             font-size: 2rem;
@@ -51,9 +43,9 @@
             gap: 2rem;
             text-align: center;
             align-items: center;
-
-            h1 {
-                text-align: center;
+  }
+          h1 {
+            text-align: center;
                 margin: 2rem;
 
                 h1 {
@@ -264,18 +256,57 @@
             @media only screen and (min-width: 993px) and (max-width: 1200px) {
                 /* CSS rules for large screens */
             }
-        }
-        figure img {
-            width: 50%;
-            border-radius: 50%;
-            gap: 1rem;
-            object-fit: cover;
-            border: 2px solid black;
-        }
-        figcaption {
-            padding: 2rem;
-        }
+      }
+      figure img {
+        width: 50%;
+        border-radius: 50%;
+        gap: 1rem;
+        object-fit: cover;
+        border: 2px solid black;
+      }
+      figcaption  {
+        padding: 2rem;
+      }
     }
+.offer-f{
+    background-color: var(--light-background);
+    padding: 2rem;
+    text-align: center;
+    p{
+        margin-top: 1rem;
+    }
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  gap:2rem;
+  align-items: center;
+  position: relative;
+  
+  img {
+    width: 10rem;
+    height: 12rem;
+    border: 2px solid rgb(142, 107, 118);
+  }
+  h2{
+    top:1rem;
+    align-items: center;
+  }
+}
+  /* h3{
+    position: absolute;
+    bottom:1rem;
+    font-style: italic;
+    color:#4b3540;
+    background-color: rgb(177, 162, 162);
+  }
+} */
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
 
     header {
         background-color: white;
